@@ -1,0 +1,59 @@
+{
+  "_about": "Words and phrases that make writing read as AI-generated. Edit freely: add a line to any list, or add a new list. Matching ignores case and only hits whole words.",
+
+  "words": [
+    "delve", "delving", "leverage", "leveraging", "utilize", "utilizing", "harness", "unlock", "unleash",
+    "elevate", "empower", "foster", "fostering", "cultivate", "amplify", "streamline", "spearhead",
+    "embark on", "showcase", "showcases", "underscore", "underscores", "revolutionize",
+    "game-changer", "game changer", "gamechanger", "game-changing", "groundbreaking", "cutting-edge",
+    "transformative", "seamless", "seamlessly", "robust", "holistic", "comprehensive", "crucial",
+    "vital", "pivotal", "invaluable", "remarkable", "profound", "meticulous", "meticulously",
+    "compelling", "bespoke", "multifaceted", "myriad", "plethora", "tapestry", "realm",
+    "landscape", "paradigm", "synergy", "synergies", "beacon", "cornerstone", "arsenal",
+    "treasure trove", "north star", "testament to", "moreover", "furthermore", "additionally",
+    "notably", "consequently", "nevertheless", "in essence", "in conclusion", "nuanced",
+    "intricate", "tailored", "actionable insights", "supercharge", "level up", "next-level",
+    "next level", "ever-evolving", "ever-changing", "fast-paced", "rapidly evolving",
+    "deep dive", "deep-dive", "dive deep", "dive into", "diving into", "navigate the",
+    "navigating the", "in the realm of", "plays a crucial role", "plays a key role",
+    "it's worth noting", "it is worth noting", "worth noting", "at its core", "nothing short of",
+    "a wide range of", "when it comes to"
+  ],
+
+  "openers_closers": [
+    "in today's fast-paced world", "in today's digital age", "in today's world",
+    "in the ever-evolving landscape", "let's face it", "here's the thing", "here's the kicker",
+    "picture this", "imagine a world where", "in a world where", "it's no secret that",
+    "we've all been there", "buckle up", "let that sink in", "food for thought",
+    "the future is here", "the choice is yours", "at the end of the day", "move the needle",
+    "what are your thoughts", "drop a comment below", "here's what i learned",
+    "and that's the point", "let's be honest", "the real question is"
+  ],
+
+  "outreach": [
+    "stuck with me", "resonated with me", "really resonated", "caught my eye", "would be gold",
+    "i hope this message finds you well", "hope this finds you well", "hope you're doing well",
+    "i came across your profile", "i couldn't help but notice", "i love what you're doing",
+    "big fan of your work", "just wanted to reach out", "pick your brain", "circle back",
+    "touch base", "explore synergies", "win-win", "value add", "no strings attached",
+    "looking forward to hearing from you", "thanks in advance", "just bumping this",
+    "following up on my last message"
+  ],
+
+  "comment_cliches": [
+    "great post", "love this", "so true", "couldn't agree more", "could not agree more",
+    "this resonates", "well said", "spot on", "spot-on", "this is gold", "great insights",
+    "great share", "thanks for sharing", "thank you for sharing", "powerful post",
+    "powerful insight", "amazing post", "this hits", "hits different", "hits home",
+    "key takeaway", "must-read", "valuable insights", "solid advice", "curious to hear",
+    "would love to hear", "keep it up", "keep sharing", "great reminder", "important reminder"
+  ],
+
+  "structures": [
+    { "name": "\"it's not just X, it's Y\"", "regex": "\\b(it'?s|this is|that'?s) not (just|only|merely) [^.!?\\n]{1,60}[,;.] ?(it'?s|this is|that'?s)\\b" },
+    { "name": "\"not only X but also Y\"", "regex": "\\bnot only\\b[^.!?\\n]{1,80}\\bbut also\\b" },
+    { "name": "\"this isn't about X. it's about Y\"", "regex": "\\b(isn'?t|is not|wasn'?t) about [^.!?\\n]{1,60}[.,;] ?(it'?s|it is|it was) about\\b" },
+    { "name": "one-line reveal question (\"The result?\")", "regex": "(^|[.!]\\s+)(the|my) (result|kicker|catch|twist|secret|answer|best part|truth)\\?" },
+    { "name": "\"Here's why:\" setup line", "regex": "(^|\\n)\\s*here'?s (why|how|what)[:.]" }
+  ]
+}
